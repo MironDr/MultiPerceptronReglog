@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="42b2f6c0-1421-4ed5-95ef-022b8dd1b312" name="Changes" comment="" />
+    <list default="true" id="42b2f6c0-1421-4ed5-95ef-022b8dd1b312" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reglog.py" beforeDir="false" afterPath="$PROJECT_DIR$/reglog.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -28,7 +37,12 @@
     "Python.perceptron.executor": "Run",
     "Python.reglog.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/MIW/MIWPerceptronReglog",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/MIW/MultiPerceptronReglog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -137,6 +151,7 @@
       <updated>1743076980865</updated>
       <workItem from="1743076981995" duration="206000" />
       <workItem from="1743077210670" duration="3141000" />
+      <workItem from="1743084703483" duration="1452000" />
     </task>
     <servers />
   </component>
@@ -147,6 +162,6 @@
     <SUITE FILE_PATH="coverage/MIWPerceptronReglog$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1743077160572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/perceptron_py$perceptron__1_.coverage" NAME="perceptron (1) Coverage Results" MODIFIED="1743078067269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/perceptron_py$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1743077213294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
-    <SUITE FILE_PATH="coverage/perceptron_py$reglog.coverage" NAME="reglog Coverage Results" MODIFIED="1743080960929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/perceptron_py$reglog.coverage" NAME="reglog Coverage Results" MODIFIED="1743085839539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
