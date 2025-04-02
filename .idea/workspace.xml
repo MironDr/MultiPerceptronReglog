@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42b2f6c0-1421-4ed5-95ef-022b8dd1b312" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
       <workItem from="1743076981995" duration="206000" />
       <workItem from="1743077210670" duration="3141000" />
       <workItem from="1743084703483" duration="1452000" />
-      <workItem from="1743607431049" duration="2866000" />
+      <workItem from="1743607431049" duration="3231000" />
     </task>
     <servers />
   </component>
