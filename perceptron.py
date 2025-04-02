@@ -8,28 +8,31 @@ from plotka import plot_decision_regions
 matplotlib.use('TkAgg')
 
 
-class Perceptron(object):
-
+class Perceptron:
     def __init__(self, eta=0.01, n_iter=10):
-        self.w_ = None
         self.eta = eta
         self.n_iter = n_iter
+        self.weights = None
 
     def fit(self, X, y):
-        self.w_ = np.zeros(1 + X.shape[1])
+        self.weights = np.zeros(X.shape[1] + 1)
 
         for _ in range(self.n_iter):
-            for xi, target in zip(X, y):
-                update = self.eta * (target - self.predict(xi))
-                self.w_[1:] += update * xi
-                self.w_[0] += update
+            for xi, yi in zip(X, y):
+                self._update_weights(xi, yi)
+
         return self
 
+    def _update_weights(self, xi, yi):
+        error = yi - self.predict(xi)
+        self.weights[1:] += self.eta * error * xi
+        self.weights[0] += self.eta * error
+
     def net_input(self, X):
-        return np.dot(X, self.w_[1:]) + self.w_[0]
+        return np.dot(X, self.weights[1:]) + self.weights[0]
 
     def predict(self, X):
-        return np.where(self.net_input(X) >= 0.0, 1, -1)
+        return np.where(self.net_input(X) >= 0, 1, -1)
 
 
 class MultiClassPerceptron:
